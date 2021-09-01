@@ -25,3 +25,7 @@ So to avoid that situation we decided to cluster the data using K-Means++ cluste
 6. In production these two algorithms were hyptertuned using GridsearchCV then the model with their best parameters which produced the highest AUC score was selected.
 
 7. When the new data is given to the model to predict, the model will first assign a cluster number for each wafer, then depending upon the model selected for that cluster prediction will take place.
+
+ DEPLOYMENT - 
+ 
+8. This application was deployed on GCP.
